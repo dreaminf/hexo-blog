@@ -32,4 +32,6 @@ npm root -g #全局的node_module路径
 
 ## 配置
 
+问题详解
+
 ## 常见问题
