@@ -95,7 +95,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-- type: git
+- type: sftp
   host: 106.12.148.158
   user: root 
   pass: Zhl@1126)

@@ -30,8 +30,25 @@ npm root -g #全局的node_module路径
 >
 >+ Linux 安装
 
-## 配置
+## windwos 配置
 
-问题详解
+### 在安装目录下 创建 node_global  和 node_caches 两个文件夹
+ *默认这两个文件夹在用户目录下*
+
+{% img pic-names /images/node_install/node6.png  500  400  "安装第六步 '安装第六步'" %}
+
+```nodejs
+npm config set prefix "file dir"
+npm config set caches "file dir"
+
+```
+
+{% img pic-names /images/node_install/node7.png  500  400  "安装第七步 '安装第七步'" %}
+
+### 配置环境变量  *系统环境变量* path
+
+{% img pic-names /images/node_install/node8.png  500  400  "安装第8步 '安装第8步'" %}
+
+{% img pic-names /images/node_install/node5.png  500  400  "安装第9步 '安装第9步'" %}
 
 ## 常见问题
