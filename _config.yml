@@ -8,7 +8,7 @@ subtitle: 'zhl 的 博客'
 description: '专注技术沉淀和积累'
 keywords: '技术，JS,PHP,SQL,数据库,部署'
 author: zhenghl
-language: en
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -83,7 +83,7 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
+include: 'thems/'
 exclude:
 ignore:
 
@@ -93,6 +93,25 @@ ignore:
 # theme: landscape
 theme: BlueLake
 
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
+    
 stylus: 
   compress: true
 # Deployment
